@@ -6,7 +6,7 @@ export const SearchBox = () => {
   return (
     <div className="relative z-30 mt-[80px] lg:mt-0">
       <input
-        className="w-full lg:w-[100%] h-[45px] lg:h-[52px] rounded-[50px] pl-[50px] border-0 outline-none placeholder_"
+        className="w-full lg:w-[400px] mg:w-[300px] h-[45px] lg:h-[52px] rounded-[50px] pl-[50px] border-0 outline-none placeholder_"
         placeholder="Search for product"
         onChange={(e) =>
           filterProduct({
