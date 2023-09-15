@@ -12,6 +12,7 @@ export const MobileHeader = () => {
 
     setShowSideBar(!showSideBar);
   };
+  
   return (
     <div>
       <div className="w-full bg-white h-[50px] z-50 fixed left-0 border-b px-4 flex justify-between items-center">
